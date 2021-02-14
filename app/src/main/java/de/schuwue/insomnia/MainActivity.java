@@ -40,6 +40,6 @@ public class MainActivity extends AppCompatActivity {
         mWebView.addJavascriptInterface(new WebAppInterface(this), "Android");
 
         // For developing, load web content from local server
-        mWebView.loadUrl("http://insomnia.asgard.lan/");
+        mWebView.loadUrl("http://insomnia.local.schuwue.de/");
     }
 }
